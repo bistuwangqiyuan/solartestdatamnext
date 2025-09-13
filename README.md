@@ -1,14 +1,57 @@
-# Next + Netlify Starter
+# 光伏关断器检测数据管理系统 (Solar Test Data Management System)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
 
-This is a [Next.js](https://nextjs.org/) v15 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+## 项目概述
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
+这是一个基于 Next.js 15 开发的工业级光伏关断器检测数据管理系统，采用现代化的技术栈，提供数据采集、分析、可视化和管理功能。系统设计遵循工业美学，具有专业的数据大屏展示功能。
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+### 技术栈
+- **前端框架**: Next.js 15 + React 18
+- **UI设计**: 工业风格、响应式设计
+- **数据库**: Supabase (PostgreSQL)
+- **部署**: Netlify
+- **数据可视化**: Recharts, D3.js
+- **样式**: CSS Modules + Tailwind CSS
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+### 核心功能
+- Excel数据批量导入/导出
+- 实时数据监控大屏
+- 多维度数据分析
+- 自动报告生成
+- 用户权限管理
+- 移动端适配
+
+## 环境配置
+
+### Supabase配置
+在项目根目录创建 `.env.local` 文件，添加以下配置：
+```
+NEXT_PUBLIC_SUPABASE_URL=https://zzyueuweeoakopuuwfau.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6eXVldXdlZW9ha29wdXV3ZmF1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQzODEzMDEsImV4cCI6MjA1OTk1NzMwMX0.y8V3EXK9QVd3txSWdE3gZrSs96Ao0nvpnd0ntZw_dQ4
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6eXVldXdlZW9ha29wdXV3ZmF1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NDM4MTMwMSwiZXhwIjoyMDU5OTU3MzAxfQ.CTLF9Ahmxt7alyiv-sf_Gl3U6SNIWZ01PapTI92Hg0g
+```
+
+## TASK 任务追踪
+
+### 待完成任务
+- [ ] 创建项目目录结构和配置文件 - 2025-09-13
+- [ ] 设计数据库表结构
+- [ ] 开发前端页面组件
+- [ ] 实现数据管理功能
+- [ ] 创建数据大屏展示
+- [ ] 集成Supabase后端
+- [ ] 优化UI/UX设计
+- [ ] 编写测试用例
+- [ ] 部署到Netlify
+
+### 已完成任务
+- [x] 编制光伏关断器检测数据管理系统PRD文档 - 2025-09-13
+
+### 发现的新任务
+- [ ] 创建示例数据文件
+- [ ] 配置ESLint和Prettier
+- [ ] 添加国际化支持
 
 ## Table of Contents:
 
