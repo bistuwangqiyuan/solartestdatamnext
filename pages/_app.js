@@ -44,4 +44,4 @@ export default function Application({ Component, pageProps }) {
       </AuthProvider>
     </QueryClientProvider>
   )
-}
+
