@@ -12,9 +12,6 @@ const queryClient = new QueryClient({
   },
 })
 
-<<<<<<< Current (Your changes)
-export default Application
-=======
 export default function Application({ Component, pageProps }) {
   return (
     <QueryClientProvider client={queryClient}>
@@ -47,5 +44,4 @@ export default function Application({ Component, pageProps }) {
       </AuthProvider>
     </QueryClientProvider>
   )
-}
->>>>>>> Incoming (Background Agent changes)
+

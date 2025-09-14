@@ -41,89 +41,6 @@
     height: 8px;
   }
 
-  ::-webkit-scrollbar-track {
-    @apply bg-gray-100;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    @apply bg-gray-400 rounded-full;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray-500;
-  }
-}
-
-@layer components {
-  /* Utility classes for common patterns */
-  .glass-effect {
-    @apply backdrop-blur-lg bg-white/80 border border-gray-200/50;
-  }
-
-  .gradient-primary {
-    @apply bg-gradient-to-r from-primary-500 to-primary-700;
-  }
-
-  .gradient-secondary {
-    @apply bg-gradient-to-r from-secondary-500 to-secondary-700;
-  }
-
-  .gradient-success {
-    @apply bg-gradient-to-r from-success-500 to-success-700;
-  }
-
-  .card-shadow {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .animate-in {
-    animation: fadeIn 0.3s ease-in-out;
-  }
-
-  .animate-out {
-    animation: fadeOut 0.3s ease-in-out;
-  }
-
-  /* Data visualization specific styles */
-  .chart-container {
-    @apply relative w-full h-full min-h-[300px];
-  }
-
-  .metric-card {
-    @apply p-6 rounded-xl bg-white shadow-card hover:shadow-lg transition-shadow duration-300;
-  }
-
-  .data-table {
-    @apply w-full text-sm text-left text-gray-700;
-  }
-
-  .data-table thead {
-    @apply text-xs text-gray-700 uppercase bg-gray-50;
-  }
-
-  .data-table tbody tr {
-    @apply bg-white border-b hover:bg-gray-50 transition-colors;
-  }
-
-  /* Loading states */
-  .skeleton {
-    @apply animate-pulse bg-gray-200 rounded;
-  }
-
-  .loading-spinner {
-    @apply animate-spin rounded-full border-4 border-gray-200 border-t-primary-500;
-  }
-}
-
-<<<<<<< Current (Your changes)
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-=======
 @layer utilities {
   /* Text truncation */
   .truncate-2 {
@@ -156,5 +73,4 @@
   .transition-base {
     @apply transition-all duration-300 ease-in-out;
   }
-}
->>>>>>> Incoming (Background Agent changes)
+

@@ -124,15 +124,8 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-<<<<<<< Current (Your changes)
-# Local Netlify folder
-.netlify
-=======
 # yarn v2
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
-.pnp.*
->>>>>>> Incoming (Background Agent changes)
