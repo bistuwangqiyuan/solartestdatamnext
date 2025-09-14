@@ -2,20 +2,18 @@ import '@/styles/globals.css'
 import { Toaster } from 'react-hot-toast'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { AuthProvider } from '@/contexts/AuthContext'
+import { useState } from 'react'
 
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      refetchOnWindowFocus: false,
-      retry: false,
-    },
-  },
-})
-
-<<<<<<< Current (Your changes)
-export default Application
-=======
 export default function Application({ Component, pageProps }) {
+  const [queryClient] = useState(() => new QueryClient({
+    defaultOptions: {
+      queries: {
+        refetchOnWindowFocus: false,
+        retry: false,
+      },
+    },
+  }))
+  
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
@@ -48,4 +46,3 @@ export default function Application({ Component, pageProps }) {
     </QueryClientProvider>
   )
 }
->>>>>>> Incoming (Background Agent changes)
