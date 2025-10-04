@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
     "module": "esnext",
@@ -27,7 +24,8 @@
       "@utils/*": ["utils/*"],
       "@hooks/*": ["hooks/*"],
       "@services/*": ["services/*"],
-      "@config/*": ["config/*"]
+      "@config/*": ["config/*"],
+      "@types/*": ["types/*"]
     }
   },
   "include": [

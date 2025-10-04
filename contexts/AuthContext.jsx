@@ -36,7 +36,7 @@ export const AuthProvider = ({ children }) => {
     return () => {
       authListener.subscription.unsubscribe()
     }
-  }, [supabase])
+  }, [])
 
   const signIn = async (email, password) => {
     try {

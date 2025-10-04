@@ -41,6 +41,7 @@
     height: 8px;
   }
 
+<<<<<<< HEAD
   ::-webkit-scrollbar-track {
     @apply bg-gray-100;
   }
@@ -116,6 +117,8 @@
   }
 }
 
+=======
+>>>>>>> 416d0a8e00024729bd2acdc2335c39882588cf35
 @layer utilities {
   /* Text truncation */
   .truncate-2 {
@@ -148,4 +151,8 @@
   .transition-base {
     @apply transition-all duration-300 ease-in-out;
   }
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 416d0a8e00024729bd2acdc2335c39882588cf35
