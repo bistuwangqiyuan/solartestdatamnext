@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-<<<<<<< HEAD
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -17,10 +16,30 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          50: '#E6F0FF',
+          100: '#CCE0FF',
+          200: '#99C2FF',
+          300: '#66A3FF',
+          400: '#3385FF',
+          500: '#0066FF',
+          600: '#0052CC',
+          700: '#003D99',
+          800: '#002966',
+          900: '#001433',
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          50: '#E8EAED',
+          100: '#D1D5DB',
+          200: '#A3ABB6',
+          300: '#748192',
+          400: '#46576D',
+          500: '#1B2951',
+          600: '#162141',
+          700: '#111931',
+          800: '#0B1020',
+          900: '#060810',
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -41,34 +60,6 @@ module.exports = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
-        },
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-=======
-        primary: {
-          50: '#E6F0FF',
-          100: '#CCE0FF',
-          200: '#99C2FF',
-          300: '#66A3FF',
-          400: '#3385FF',
-          500: '#0066FF',
-          600: '#0052CC',
-          700: '#003D99',
-          800: '#002966',
-          900: '#001433',
-        },
-        secondary: {
-          50: '#E8EAED',
-          100: '#D1D5DB',
-          200: '#A3ABB6',
-          300: '#748192',
-          400: '#46576D',
-          500: '#1B2951',
-          600: '#162141',
-          700: '#111931',
-          800: '#0B1020',
-          900: '#060810',
         },
         success: {
           50: '#E6FBF3',
@@ -180,13 +171,8 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
->>>>>>> 416d0a8e00024729bd2acdc2335c39882588cf35
       },
     },
   },
   plugins: [],
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 416d0a8e00024729bd2acdc2335c39882588cf35
